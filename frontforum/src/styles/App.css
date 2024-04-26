@@ -1,0 +1,186 @@
+/* Estilo para a coluna verde na lateral esquerda */
+.sidebar {
+  background-color: #006633;
+  width: 271px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0px;
+}
+
+/* Estilo para o nome do site */
+.site-name {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para a barra de pesquisa */
+  .search-bar {
+    position: absolute;
+    top: 40px;
+    left: 350px;
+    display: flex;
+    align-items: center;
+    border: 0px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    width: 700px;
+    background-color: #C7D2DD;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #C7D2DD;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-icon {
+  font-size: 21px;
+  color: #003366;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #003366; /* Cor do texto */
+  font-weight: bold;
+
+}
+
+.search-input::placeholder {
+  color: #003366; /* Cor do placeholder */
+}
+
+
+/* Estilo para o botão de acesso */
+.access-button {
+  position: absolute;
+  flex: 1;
+  top: 40px;
+  right: 26px;
+  background-color: #C7D2DD;
+  color: #003366;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.access-button:hover {
+  background-color: #c7d2ddaf; /* Altera a cor de fundo apenas ao passar o cursor */
+}
+
+.access-button svg {
+  margin-right: 5px; /* Mover o ícone para o lado esquerdo */
+  width: 18px;
+  height: 18px;
+}
+
+.access-button span {
+  margin-left: 5px; /* Mover o texto para o lado direito */
+}
+
+/* Estilo para o botão de pergunta */
+.question-button {
+  position: absolute;
+  flex: 1;
+  top: 150px;
+  right: 26px;
+  background-color: #003366;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+}
+
+.question-button:hover {
+  background-color: #0151a0; /* Altera a cor de fundo apenas ao passar o cursor */
+}
+
+/* Estilo para a aba de criação de pergunta */
+
+.criar-pergunta-container {
+  position: absolute;
+  top: 150px;
+  left: 350px;
+  width: 250px;
+  padding: 0px;
+  background-color: #fff;
+  color: #003366;
+}
+
+.pergunta-input {
+  width: 700px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #C7D2DD;
+  border-radius: 20px;
+  background-color: #C7D2DD;
+  color: #003366;
+}
+
+.pergunta-input:focus {
+  border-color: #003366 !important; /* Cor da borda quando a caixa de texto é clicada */
+  outline: none;
+  border-width: 2px;
+}
+
+.submit-button {
+  background-color: #003366;
+  color: #fff;
+  padding: 5px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.submit-button:hover {
+  background-color: #0151a0;
+}
+
+/*Estilo para a página inicial*/
+.pagina-inicial-container {
+  padding: 20px;
+}
+
+.pagina-inicial-title {
+  color: #003366;
+  font-size: 36px;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 350px;
+  top: 120px;
+}
